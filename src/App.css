@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+/* ------- SIDEBAR ------- */
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height */
+  width: min-content; /* Set the width of the sidebar */
+  min-width: min-content;
+  /*position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ffe2e2;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  margin-top: 0 px;
+  position: relative;
+  width: 350px;
+  height: 982px;
+}
+
+/* The navigation menu links */
+.sidenav-sub {
+  /* Excursion */
+
+  position: static;
+  width: 400px;
+  height: 60px;
+  left: 60px;
+  top: 254px;
+
+  /* Header 2 */
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 41.9904px;
+  line-height: 49px;
+  text-align: left;
+  letter-spacing: -0.02em;
+
+  color: #162b2a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 45px 0px;
+}
+
+/* Navigation menu titles */
+.sidenav-title {
+  text-decoration: none;
+  font-size: 68px;
+  color: #162b2a;
+  padding-bottom: 50px;
+  position: static;
+  width: 400 px;
+  height: 80px;
+  left: 45px;
+  top: 59px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 80px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+/* Add underline when hovering over links */
+.sidenav a:hover {
+  text-decoration: underline;
+  color: #343434;
+}
