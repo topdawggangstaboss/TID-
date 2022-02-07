@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
+import "../CSS/Table.css";
 
 function Table() {
-  return <div>Table</div>;
+  return <div className="table">Table</div>;
 }
 
 export default Table;

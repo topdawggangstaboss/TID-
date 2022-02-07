@@ -1,8 +1,23 @@
 import React from "react";
-import "../App.css";
+import "../CSS/Buttons.css";
 
 function Buttons() {
-  return <div>button</div>;
+  return (
+    <>
+      <div className="primary">
+        <div className="buttontext">button</div>
+      </div>
+      <div className="secondary">
+        <div className="buttontext">button</div>
+      </div>
+      <div className="cancel">
+        <div className="buttontext">button</div>
+      </div>
+      <div className="extra">
+        <div className="buttontext">button</div>
+      </div>
+    </>
+  );
 }
 
 export default Buttons;
