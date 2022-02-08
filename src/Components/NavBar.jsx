@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "../CSS/Sidebar.css";
+import { Link } from "react-router-dom";
+import "../CSS/NavBar.css";
+import * as FaIcons from "react-icons/fa";
 
-function Sidebar() {
+function NavBar() {
   return (
     <div className="sidenav">
       <div className="sidenav-title">AsoPlan</div>
@@ -13,4 +14,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default NavBar;
